@@ -24,3 +24,32 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 32px;
+}
+
+.titre{
+  display: flex;
+  justify-content: center;
+}
+
+.images{
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+
+}
+
+#chili, #barberry, #pepper, #saffron{
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  align-items: center;
+  text-align: center;
+}
+
+
